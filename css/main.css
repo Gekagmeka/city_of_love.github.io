@@ -573,7 +573,7 @@ input[type='submit'] {
 
 body .header {
   min-height: 100vh;
-  background-image: url("https://i.imgur.com/aIAVMFn.jpg");
+  background-image: url("../images/bg-01.jpg");
   background-size: cover;
   background-position: center bottom;
   box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.3); }
@@ -588,7 +588,7 @@ body .header {
     left: 0;
     width: 100%;
     height: 110px;
-    background-color: #491f67;
+    background-color: #706d73;
     opacity: 0; }
     @media (max-width: 768px) {
       body .header:before {
@@ -776,17 +776,10 @@ body .header {
           text-transform: uppercase;
           -webkit-transition: all 0.2s ease-in;
           transition: all 0.2s ease-in; }
-          @media (max-width: 768px) {
-            body .header .container .header__main .header__button .header__link {
-              -webkit-transition: none;
-              transition: none; } }
-          body .header .container .header__main .header__button .header__link:hover {
-            background-color: #01a2a6;
-            color: #fff; }
-            @media (max-width: 768px) {
-              body .header .container .header__main .header__button .header__link:hover {
-                background-color: #ffffa6;
-                color: #10273d; } }
+          @media (min-width: 769px) {
+            body .header .container .header__main .header__button .header__link:hover {
+              background-color: #01a2a6;
+              color: #fff; } }
           @media (max-width: 768px) {
             body .header .container .header__main .header__button .header__link {
               letter-spacing: 0;
@@ -972,7 +965,7 @@ body .main .major-sense {
                   body .main .major-sense .container .major-sense__content .two-columns .two-columns__mention span img:hover {
                     opacity: 1; } }
       body .main .major-sense .container .major-sense__content .poster {
-        background-image: url("https://i.imgur.com/aOT0mjH.png");
+        background-image: url("../images/bg-02.png");
         background-repeat: no-repeat;
         background-color: #84ecfa;
         background-size: cover;
@@ -1057,11 +1050,11 @@ body .main .major-sense {
               body .main .major-sense .container .major-sense__content .carousel .slide__block.first, body .main .major-sense .container .major-sense__content .carousel .slide__block.second, body .main .major-sense .container .major-sense__content .carousel .slide__block.third {
                 background-size: cover; } }
           body .main .major-sense .container .major-sense__content .carousel .slide__block.first {
-            background-image: url(https://i.imgur.com/WpWu57t.jpg); }
+            background-image: url("../images/bg-03.jpg"); }
           body .main .major-sense .container .major-sense__content .carousel .slide__block.second {
-            background-image: url(https://i.imgur.com/IFHad9w.jpg); }
+            background-image: url("../images/bg-05.jpg"); }
           body .main .major-sense .container .major-sense__content .carousel .slide__block.third {
-            background-image: url(https://i.imgur.com/5Xeoxoe.jpg); }
+            background-image: url("../images/bg-06.jpg"); }
           body .main .major-sense .container .major-sense__content .carousel .slide__block .slide__info {
             max-width: 340px;
             width: 100%;
@@ -1117,7 +1110,7 @@ body .main .major-sense {
 
 body .main .prefooter {
   width: 100%;
-  background-image: url("https://i.imgur.com/D2iIW4D.jpg");
+  background-image: url("../images/bg-07.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover; }
@@ -1164,7 +1157,7 @@ body .main .prefooter {
           body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form {
             max-width: 800px;
             width: 100%; } }
-        body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-group {
+        body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__group {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -1173,9 +1166,9 @@ body .main .prefooter {
                   justify-content: space-between;
           margin: 0 0 10px; }
           @media (max-width: 480px) {
-            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-group {
+            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__group {
               display: block; } }
-          body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-group .form-control {
+          body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__group .form__control {
             width: 100%;
             padding: 15px 20px;
             margin: 0;
@@ -1185,26 +1178,26 @@ body .main .prefooter {
             background-color: #f5f5f5;
             -webkit-transition: all 0.2s ease-in;
             transition: all 0.2s ease-in; }
-            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-group .form-control:focus {
+            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__group .form__control:focus {
               background-color: #fffffe; }
-            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-group .form-control.right {
+            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__group .form__control.right {
               margin: 0 0 0 10px; }
               @media (max-width: 480px) {
-                body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-group .form-control.right {
+                body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__group .form__control.right {
                   margin: 0; } }
-            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-group .form-control.left {
+            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__group .form__control.left {
               margin: 0 10px 0 0; }
               @media (max-width: 480px) {
-                body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-group .form-control.left {
+                body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__group .form__control.left {
                   margin: 0 0 10px; } }
-            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-group .form-control.bottom {
+            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__group .form__control.bottom {
               padding-top: 30px;
               padding-bottom: 30px;
               resize: none; }
-        body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-button {
+        body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__button {
           margin: 30px 0 0;
           text-align: right; }
-          body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-button .submit-button {
+          body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__button .submit__button {
             padding: 17px 30px;
             border: none;
             border-radius: 3px 25px 3px 25px;
@@ -1216,9 +1209,10 @@ body .main .prefooter {
             box-shadow: 0 1px 5px #525555;
             -webkit-transition: all 0.3s ease-in;
             transition: all 0.3s ease-in; }
-            body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form-button .submit-button:hover {
-              color: #b4ec84;
-              background-color: #2d4a4b; }
+            @media (min-width: 769px) {
+              body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__form form .form__button .submit__button:hover {
+                color: #b4ec84;
+                background-color: #2d4a4b; } }
       body .main .prefooter .container .prefooter__content .prefooter__info .prefooter__text {
         padding: 90px 0 0;
         font-size: 1.5rem;
@@ -1291,7 +1285,7 @@ body .main .prefooter {
                 text-decoration: none; }
 
 body .footer {
-  background-image: url("https://i.imgur.com/OeiaKe3.jpg");
+  background-image: url("../images/bg-08.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover; }
